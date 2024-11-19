@@ -3,5 +3,10 @@ name = "ember-cloudflare-pages-test"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-11-19"
 
+upload_source_maps = true
+
+[dev]
+local_protocol = "https"
+
 [env]
 production = { }
