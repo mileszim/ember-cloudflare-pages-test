@@ -5,7 +5,7 @@ module.exports = function (environment) {
     modulePrefix: 'ember-cloudflare-pages-test',
     environment,
     rootURL: '/',
-    locationType: 'hash',
+    locationType: 'history',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
       FEATURES: {
