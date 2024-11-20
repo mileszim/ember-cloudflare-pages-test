@@ -8,5 +8,11 @@ upload_source_maps = true
 [dev]
 local_protocol = "https"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "ember-cloudflare-pages-test"
+database_id = "1c05eaba-ee1f-4ae9-84f3-10d72fa3f3d0"
+migrations_dir = "drizzle/migrations"
+
 [env]
 production = { }
